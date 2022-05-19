@@ -1,0 +1,20 @@
+body
+{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+span
+{
+	font-size: 12px;
+	color: red;
+}
+canvas
+{
+	background: lightblue;
+	position: absolute;
+    background: pink;
+    top: 0;
+    left: 0;
+	width: 100%;
+}
