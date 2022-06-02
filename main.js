@@ -37,13 +37,11 @@ recognition.onresult = function(event) {
 }
 
 function setup() {
-  var int1 = setInterval(function() {
     screen_width = window.innerWidth;
     screen_height = window.innerHeight;
     canvas = createCanvas(screen_width,screen_height-170);
     canvas.position(0,169);
     console.log(screen_width+", "+screen_height);
-}, 1);
 }
 
 function draw() {
